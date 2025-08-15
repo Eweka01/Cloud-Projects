@@ -18,7 +18,7 @@ Set up an API Gateway to handle backend processing for:
 - Subscription Lambda adds new subscriber emails to the SNS topic.
 - Event Registration Lambda updates `events.json` in S3 with new event details submitted from the website form and sends notifications via SNS.
   
-<img width="764" height="490" alt="Screenshot 2025-08-12 at 1 53 00 AM" src="https://github.com/user-attachments/assets/b3c42f45-693b-4903-83fe-32c99a132bef" />
+<img width="771" height="488" alt="Screenshot 2025-08-15 at 6 37 25 AM" src="https://github.com/user-attachments/assets/9dc59f33-4d3d-495e-a08b-5c7e52cc0d6c" />
 
 ---
 
@@ -34,7 +34,7 @@ Set up an API Gateway to handle backend processing for:
 
 ### 1️⃣ Create the Website Frontend Files
 Download pre-built files (`index.html`, `styles.css`, `events.json`) from:  
-https://github.com/Eweka01/Cloud-Engineering-Project/tree/main/intermediate/project1
+https://github.com/Eweka01/Cloud-Projects/tree/main/projects/intermediate/project1
 
 **If not using Git:**
 - Download ZIP from GitHub.

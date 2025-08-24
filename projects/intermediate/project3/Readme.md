@@ -77,16 +77,18 @@ Attach:
   - `SES_RECIPIENT_EMAIL`
 
 Deploy the provided script:  
-
+- [Lambda Code](https://github.com/Eweka01/Cloud-Projects/blob/main/projects/intermediate/project3/lambda-code/lambda.py)
 ---
 
 ### **4.4 Integration and Testing**
 #### **Integration**
 - Add **S3 event notification** to trigger Lambda.
-![S3 Event](images/s3-event.png)
+<img width="1316" height="671" alt="image" src="https://github.com/user-attachments/assets/f6656fd6-509c-4124-a3c5-14d2f11faca6" />
+
 
 #### **Testing**
 - Upload a test receipt to S3.
+- 
 - Check CloudWatch logs:
 ![CloudWatch Logs](images/cloudwatch-logs.png)
 - Verify DynamoDB entry:

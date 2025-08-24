@@ -87,14 +87,13 @@ Deploy the provided script:
 
 
 #### **Testing**
-- Upload a test receipt to S3.
-- 
+- Upload a test receipt to S3. pick one [Receipts](https://github.com/Eweka01/Cloud-Projects/tree/main/projects/intermediate/project3/receipts)
 - Check CloudWatch logs:
-![CloudWatch Logs](images/cloudwatch-logs.png)
+<img width="1775" height="396" alt="image" src="https://github.com/user-attachments/assets/cedb84e3-805f-49d5-84e5-a16bacf82960" />
 - Verify DynamoDB entry:
-![DynamoDB Items](images/dynamodb-items.png)
+<img width="1158" height="444" alt="image" src="https://github.com/user-attachments/assets/dc22896a-e13a-499f-8a33-8d5f7da9bf56" />
 - Check email notification:
-![SES Email](images/email-notification.png)
+<img width="844" height="445" alt="image" src="https://github.com/user-attachments/assets/bb49120f-ac93-41be-9b4c-ff573ae58538" />
 
 ---
 

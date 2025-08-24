@@ -35,7 +35,8 @@ This project automates receipt processing using **AWS serverless services**. It 
 #### **S3 Buckets**
 - Create **3 buckets**: `raw`, `processed`, and `final`.
 - Add an **incoming folder** in the raw bucket for uploads.
-![S3 Buckets](images/s3-bucket-setup.png)
+<img width="1400" height="306" alt="image" src="https://github.com/user-attachments/assets/837285fd-2a3d-43f6-b402-9d805ed0f10f" />
+
 
 #### **DynamoDB Table**
 - Table name: `Receipts`
@@ -50,7 +51,8 @@ This project automates receipt processing using **AWS serverless services**. It 
 1. Navigate to SES → **Identities**  
 2. Verify sender and recipient emails  
 3. Confirm successful verification  
-![SES Setup](images/ses-setup.png)
+<img width="1662" height="815" alt="image" src="https://github.com/user-attachments/assets/17bb27d9-8c03-4eae-b4e6-751ce248e0a1" /> <img width="1718" height="723" alt="image" src="https://github.com/user-attachments/assets/d5355410-8fda-441a-aa4d-46840634cb4d" />
+
 
 ---
 
@@ -63,7 +65,8 @@ Attach:
 - `AmazonSESFullAccess`
 - `AWSLambdaBasicExecutionRole`
 
-![IAM Role](images/iam-role.png)
+<img width="670" height="266" alt="image" src="https://github.com/user-attachments/assets/11e9d879-eaa6-4f1e-8fc9-8d938a3e7ca9" />
+
 
 #### **Lambda Function**
 - Runtime: Python 3.9
@@ -74,7 +77,6 @@ Attach:
   - `SES_RECIPIENT_EMAIL`
 
 Deploy the provided script:  
-[lambda/receipt_processor.py](lambda/receipt_processor.py)
 
 ---
 

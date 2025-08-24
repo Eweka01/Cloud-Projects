@@ -13,8 +13,7 @@ This project automates receipt processing using **AWS serverless services**. It 
 ---
 
 ## **2. Architecture Diagram**
-![Architecture Diagram](images/architecture-diagram.png)  
-*Upload a clean architecture diagram here.*
+<img width="1415" height="667" alt="f3b95d6339d8f8f3b7d93b8a849f8480" src="https://github.com/user-attachments/assets/9d92892d-35c5-4afb-8608-e5e94853ff57" />
 
 ---
 
@@ -42,7 +41,8 @@ This project automates receipt processing using **AWS serverless services**. It 
 - Table name: `Receipts`
 - Partition Key: `receipt_id` (String)
 - Sort Key: `date` (String)
-![DynamoDB Table](images/dynamodb-table.png)
+<img width="1095" height="580" alt="Screenshot 2025-08-24 at 5 58 16 PM" src="https://github.com/user-attachments/assets/9130ebac-d4e6-4f9a-aadc-4eb2f237aa12" />
+
 
 ---
 
